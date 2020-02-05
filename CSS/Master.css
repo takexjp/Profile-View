@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+
+/* Reset CSS */
+@import url(ResetRCv5.css);
+
+/* Defult CSS */
+body {
+    background: url(../Images/backgrand.png);
+    font: 18/24 "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", 'メイリオ', Meiryo, Helvetica, Arial, Sans-Serif;
+    color: #fff
+}
+
+a {
+    color: #69c
+}
+
+a:hover {
+    color: #069
+}
+
+ul {
+    list-style: none;
+}
+
+/* Content CSS */
+#profile {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#main {
+    width: 600px;
+    margin-top: 10px;
+    float: left;
+}
+
+#abilityGraf {
+    width: 500px;
+    height: 300px;
+    margin-top: 10px;
+    float: right;
+}
+
+#abilityGraf h1 {
+    text-align: center
+}
+
+#skill {
+    width: 500px;
+    height: 150px;
+    float: right;
+}
+
+#skill h1 {
+    text-align: center
+}
+
+#language {
+    width: 500px;
+    height: 50px;
+    float: right;
+}
+
+#language h1 {
+    text-align: center
+}
+
+/* HeaderFooter CSS */
+li {
+    display: inline;
+}
+
+hr {
+    height: 2px;
+    border: none;
+    border-top: 2px #fff solid;
+    margin-top: 0px;
+    margin-bottom: 2px auto;
+}
+
+
+footer ::before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    margin: 100px auto 20px;
+    text-align: center;
+    display: block;
+    font-size: 75%;
+}
+
+footer hr {
+    margin: 100px auto 20px;
+}
